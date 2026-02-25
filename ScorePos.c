@@ -3,7 +3,8 @@
 
 
 int calculate_determine(int score) {
-    int possible_points[] = {1, 2, 3, 6};
+    int possible_points[] = {1, 2, 3, 6, 7, 8};
+ 
     if (score == 1) {
         printf("The score of 1 is impossible to achieve in football. \n");
         return 0;
